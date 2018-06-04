@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="wrapper" class="center col s12">
+          <div class="row">
+            <div class="inner jleft">
+              <img src="assets/images/left.png"/>
+            </div>
+            <div class="inner jright">
+              <form>
+                <div class="input-field">
+                  <input id="firstname" placeholder = "" type="text" required>
+                  <label for="firstname">1. Förnamn</label>
+                </div>
+                <div class="input-field">
+                  <input id="lastname" placeholder = "" type="text" required>
+                  <label for="lastname">2. Efternamn</label>
+                </div>
+                <div class="input-field">
+                  <input id="dateofbirth" placeholder = "" type="text" maxlength="10" minlength="10" required>
+                  <label for="dateofbirth">3. Födelsedatum (ÅÅÅÅ-MM-DD)</label>
+                </div>
+                <div class="input-field">
+                  <input id="sex" placeholder = "" type="text" maxlength="1" minlength="1" required>
+                  <label for="sex">4. Kön (M/F)</label>
+                </div>
+                <div class="input-field">
+                  <input id="height" placeholder = "" type="text" maxlength="3" minlength="2" required>
+                  <label for="height">5. Längd (CM)</label>
+                </div>
+                <button class="btn btn-large waves-effect">Hämta ut pass</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <script src="assets/js/materialize.js" type="text/javascript"></script>
+    <script src="assets/js/init.js" type="text/javascript"></script>
+  </body>
+</html>
