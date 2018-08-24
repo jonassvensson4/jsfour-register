@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/materialize.css">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
@@ -17,7 +17,7 @@
             <div class="inner jright">
               <form>
                 <div class="input-field">
-                  <input id="firstname" placeholder = "" type="text" required>
+                  <input id="firstname" name="firstname" placeholder = "" type="text" required>
                   <label for="firstname">1. Förnamn</label>
                 </div>
                 <div class="input-field">
@@ -25,18 +25,22 @@
                   <label for="lastname">2. Efternamn</label>
                 </div>
                 <div class="input-field">
-                  <input id="dateofbirth" placeholder = "" type="text" maxlength="10" minlength="10" required>
-                  <label for="dateofbirth">3. Födelsedatum (ÅÅÅÅ-MM-DD)</label>
-                </div>
-                <div class="input-field">
-                  <input id="sex" placeholder = "" type="text" maxlength="1" minlength="1" required>
-                  <label for="sex">4. Kön (M/F)</label>
-                </div>
-                <div class="input-field">
                   <input id="height" placeholder = "" type="text" maxlength="3" minlength="2" required>
-                  <label for="height">5. Längd (CM)</label>
+                  <label for="height">3. Längd (CM)</label>
                 </div>
-                <button class="btn btn-large waves-effect">Hämta ut pass</button>
+                <div class="input-field">
+                  <input id="dateofbirth" placeholder = "" type="text" class="datepicker" required>
+                  <label for="dateofbirth">4. Födelsedatum (ÅÅÅÅ-MM-DD)</label>
+                </div>
+                <div class="input-field" id="sex">
+                  <select data-beloworigin="true" required>
+                    <option value="none" disabled selected>Välj kön</option>
+                    <option value="M">Man</option>
+                    <option value="F">Kvinna</option>
+                  </select>
+                  <label>5. Kön</label>
+                </div>
+                <button id="register" class="btn btn-large waves-effect">Hämta ut pass</button>
               </form>
             </div>
           </div>
