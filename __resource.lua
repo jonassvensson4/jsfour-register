@@ -29,7 +29,7 @@ files {
 	'html/assets/fonts/roboto/Roboto-Regular.woff2',
 	'html/assets/fonts/roboto/Roboto-Thin.woff',
 	'html/assets/fonts/roboto/Roboto-Thin.woff2',
-	'html/assets/css/materialize.min.css',
+	'html/assets/css/materialize.css',
 	'html/assets/css/style.css',
 	'html/assets/js/jquery.js',
 	'html/assets/js/materialize.js',
