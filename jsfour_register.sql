@@ -1,6 +1,7 @@
-ALTER TABLE `essentialmode`.`characters` 
+USE `essentialmode`;
+
+ALTER TABLE `characters` 
 ADD COLUMN `lastdigits` VARCHAR(255) NULL DEFAULT NULL;
 
-ALTER TABLE `essentialmode`.`users` 
+ALTER TABLE `users`
 ADD COLUMN `lastdigits` VARCHAR(255) NULL DEFAULT NULL;
-
