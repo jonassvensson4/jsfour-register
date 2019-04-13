@@ -14,3 +14,5 @@ För att scriptet ska fungera så behöver du använda dig av ESX.
 
 ### Screenshot
 ![screenshot](https://images-ext-2.discordapp.net/external/7Lo8kB8923e6iZ2O27yPbaO-TQjSoZiA-tj9JeMYrcI/https/image.prntscr.com/image/B6nkMnFORlmyIVTNVUAKrg.png?width=688&height=534)
+
+PSD File: https://www.dropbox.com/s/ma2dwu4h3waniym/bg.psd?dl=0
